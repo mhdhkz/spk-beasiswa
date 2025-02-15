@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Asap Condensed 900';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/AsapCondensed900.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+ @font-face {
+    font-family: 'Asap Condensed 500';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/AsapCondensed500.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: 'Asap Condensed 500', serif;
+    background-color: #F5F5F5;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 20px !important;
+}
+
+.panel-info>.panel-heading {
+    color:#ECF0F1 !important;
+    background-color: #1A237E;
+    border-color:#bce8f1;
+}
+
+.btn-info {
+    background-color: #2196F3 !important;
+    border-color: #2196F3 !important;
+}
+
+.responsive-img {
+    width: 100%;
+    max-width:300px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px; 
+}
+
+.navbar-default{
+    background-color:#1A237E;
+}
+
+.navbar-default .navbar-brand {
+    color: #fafafa;
+}
+
+.navbar-default .navbar-text {
+    color: #fafafa;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#fafafa
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#fafafa
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color:#FFEB3B;
+    background-color:transparent
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color:#e7e7e7
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #1A237E;
+  background-color: #FFEB3B;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color:#FFFEB3;
+}
+
+
+@media (min-width:1200px) {
+    .container {
+      width:90%;
+    }
+
+    .footer {
+        background-color: #263238;
+        color: #FFFFFF;
+        padding: 15px 0;
+        text-align: center;
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+    }
+    
+    
+}
